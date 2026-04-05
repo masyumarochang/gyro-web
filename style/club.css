@@ -182,3 +182,16 @@ canvas {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.body {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+canvas {
+  position: fixed;
+  display: block;
+  width: 100vw;
+}
